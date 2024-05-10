@@ -2,6 +2,8 @@ import Header from "@/layout/Header";
 import HeroArea from "./HeroArea";
 import Brand from "../common/Brand";
 import Charity from "./Charity";
+import About from "./About";
+import Footer from "@/layout/Footer";
 
 const Home = () => {
   return (
@@ -11,6 +13,8 @@ const Home = () => {
         <HeroArea/>
         <Brand style={true}/>
         <Charity/>
+        <About/>
+        <Footer/>
       </main>
     </>
   )

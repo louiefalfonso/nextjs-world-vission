@@ -19,51 +19,33 @@ const menu_data: MenuItem[] = [
     },
     {
         id: 2,
-        has_dropdown: true,
-        title: "Events",
-        link: "#",
-        sub_menus: [
-            { link: "/events", title: "Events" },
-            { link: "/events-slider", title: "Events Slider" },
-            { link: "/event-details", title: "Events Details" },
-        ],
+        has_dropdown: false,
+        title: "About Us",
+        link: "/about"
     },
     {
         id: 3,
-        has_dropdown: true,
-        title: "Portfolio",
-        link: "#",
-        sub_menus: [
-            { link: "/portfolio", title: "Portfolio" },
-            { link: "/portfolio-details", title: "Portfolio Details" },
-            { link: "/donate", title: "Donate" }
-        ],
+        has_dropdown: false,
+        title: "Volunteers",
+        link: "/volunteers"
     },
     {
         id: 4,
-        has_dropdown: true,
-        title: "Pages",
-        link: "#",
-        sub_menus: [
-            { link: "/about", title: "About Us" },
-            { link: "/contact", title: "Contact Us" },
-            { link: "/volunteers", title: "Volunteers" },
-            { link: "/become-volunteers", title: "Become Volunteer" },
-            { link: "/faqs", title: "FAQ Page" },
-            { link: "/not-found", title: "404 Error" },
-        ],
+        has_dropdown: false,
+        title: "FAQ",
+        link: "/faq"
     },
     {
         id: 5,
-        has_dropdown: true,
+        has_dropdown: false,
         title: "Blog",
-        link: "#",
-        sub_menus: [
-            { link: "/blog", title: "Blog" },
-            { link: "/blog-clasic", title: "Blog Clasic" },
-            { link: "/blog-slider", title: "Blog Slider" },
-            { link: "/blog-details", title: "Blog Details" },
-        ],
+        link: "/blog"
     },
+    {
+        id: 6,
+        has_dropdown: false,
+        title: "Contact Us",
+        link: "/contact"
+    }
 ];
 export default menu_data;

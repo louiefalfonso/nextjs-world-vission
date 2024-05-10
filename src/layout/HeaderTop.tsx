@@ -13,8 +13,8 @@ const HeaderTop = ({ style }: any) => {
                         <li>Shiloh, Hawaii 81063</li>
                      </> :
                      <>
-                        <li><span>HI</span>, Good Afternoon Dude! </li>
-                        <li><i className="flaticon-pin"></i> Shiloh, Hawaii 81063</li>
+                        <li><span>Sponsor a child</span></li>
+                        <li>Change their life. And their whole community from £26 per month.</li>
                      </>
                   }
                </ul>

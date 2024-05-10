@@ -8,7 +8,7 @@ import HeaderTop from "./HeaderTop"
 import NavMenu from "./NavMenu"
 
 import HeaderLogo_1 from "../../public/assets/img/logos/logo.png";
-import HeaderLogo_2 from "../../public/assets/img/logos/logo-white.png";
+import HeaderLogo_2 from "../../public/assets/img/logos/wp-logo-white.png";
 
 
 const Header = ({ style_1, style_2 }: any) => {
