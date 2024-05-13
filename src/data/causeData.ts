@@ -1,26 +1,27 @@
 import { StaticImageData } from "next/image";
 
-import causeThumb_1 from "@/assets/img/causes/cause1.jpg";
-import causeThumb_2 from "@/assets/img/causes/cause2.jpg";
-import causeThumb_3 from "@/assets/img/causes/cause3.jpg";
 
-import cause2Thumb_1 from "@/assets/img/causes/cause-two1.jpg";
-import cause2Thumb_2 from "@/assets/img/causes/cause-two2.jpg";
-import cause2Thumb_3 from "@/assets/img/causes/cause-two3.jpg";
-import cause2Thumb_4 from "@/assets/img/causes/cause-two4.jpg";
-import cause2Thumb_5 from "@/assets/img/causes/cause-two5.jpg";
-import cause2Thumb_6 from "@/assets/img/causes/cause-two6.jpg";
-import cause2Thumb_7 from "@/assets/img/causes/cause-two7.jpg";
-import cause2Thumb_8 from "@/assets/img/causes/cause-two8.jpg";
-import cause2Thumb_9 from "@/assets/img/causes/cause-two9.jpg";
+import causeThumb_1 from "../../public/assets/img/causes/cause1.jpg";
+import causeThumb_2 from "../../public//assets/img/causes/cause2.jpg";
+import causeThumb_3 from "../../public/assets/img/causes/cause3.jpg";
 
-import cause3Thumb_1 from "@/assets/img/causes/cause-three1.jpg";
-import cause3Thumb_2 from "@/assets/img/causes/cause-three2.jpg";
-import cause3Thumb_3 from "@/assets/img/causes/cause-three3.jpg";
+import cause2Thumb_1 from "../../public//assets/img/causes/cause-two1.jpg";
+import cause2Thumb_2 from "../../public/assets/img/causes/cause-two2.jpg";
+import cause2Thumb_3 from "../../public/assets/img/causes/cause-two3.jpg";
+import cause2Thumb_4 from "../../public/assets/img/causes/cause-two4.jpg";
+import cause2Thumb_5 from "../../public/assets/img/causes/cause-two5.jpg";
+import cause2Thumb_6 from "../../public/assets/img/causes/cause-two6.jpg";
+import cause2Thumb_7 from "../../public/assets/img/causes/cause-two7.jpg";
+import cause2Thumb_8 from "../../public/assets/img/causes/cause-two8.jpg";
+import cause2Thumb_9 from "../../public/assets/img/causes/cause-two9.jpg";
 
-import recentCauseThumb_1 from "@/assets/img/widgets/cause1.jpg";
-import recentCauseThumb_2 from "@/assets/img/widgets/cause2.jpg";
-import recentCauseThumb_3 from "@/assets/img/widgets/cause3.jpg";
+import cause3Thumb_1 from "../../public/assets/img/causes/cause-three1.jpg";
+import cause3Thumb_2 from "../../public/assets/img/causes/cause-three2.jpg";
+import cause3Thumb_3 from "../../public/assets/img/causes/cause-three3.jpg";
+
+import recentCauseThumb_1 from "../../public/assets/img/widgets/cause1.jpg";
+import recentCauseThumb_2 from "../../public/assets/img/widgets/cause2.jpg";
+import recentCauseThumb_3 from "../../public/assets/img/widgets/cause3.jpg";
 
 interface DataType {
    id: number;

@@ -4,6 +4,7 @@ import Brand from "../common/Brand";
 import Charity from "./Charity";
 import About from "./About";
 import Footer from "@/layout/Footer";
+import OurCause from "./OurCause";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <Brand style={true}/>
         <Charity/>
         <About/>
+        <OurCause/>
         <Footer/>
       </main>
     </>
