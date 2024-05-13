@@ -5,6 +5,7 @@ import Charity from "./Charity";
 import About from "./About";
 import Footer from "@/layout/Footer";
 import OurCause from "./OurCause";
+import Volunteer from "./Volunteer";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <Charity/>
         <About/>
         <OurCause/>
+        <Volunteer style={true}/>
         <Footer/>
       </main>
     </>

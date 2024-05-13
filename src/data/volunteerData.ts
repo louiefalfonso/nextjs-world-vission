@@ -1,29 +1,29 @@
 import { StaticImageData } from "next/image";
 
-import volunteerThumb_1 from "@/assets/img/valunteer/valunteer1.jpg";
-import volunteerThumb_2 from "@/assets/img/valunteer/valunteer2.jpg";
-import volunteerThumb_3 from "@/assets/img/valunteer/valunteer3.jpg";
-import volunteerThumb_4 from "@/assets/img/valunteer/valunteer4.jpg";
-import volunteerThumb_5 from "@/assets/img/valunteer/valunteer5.jpg";
-import volunteerThumb_6 from "@/assets/img/valunteer/valunteer6.jpg";
+import volunteerThumb_1 from "../../public/assets/img/valunteer/valunteer1.jpg";
+import volunteerThumb_2 from "../../public/assets/img/valunteer/valunteer2.jpg";
+import volunteerThumb_3 from "../../public/assets/img/valunteer/valunteer3.jpg";
+import volunteerThumb_4 from "../../public/assets/img/valunteer/valunteer4.jpg";
+import volunteerThumb_5 from "../../public/assets/img/valunteer/valunteer5.jpg";
+import volunteerThumb_6 from "../../public/assets/img/valunteer/valunteer6.jpg";
 
-import volunteer2Thumb_1 from "@/assets/img/valunteer/volunteer-two1.jpg";
-import volunteer2Thumb_2 from "@/assets/img/valunteer/volunteer-two2.jpg";
-import volunteer2Thumb_3 from "@/assets/img/valunteer/volunteer-two3.jpg";
-import volunteer2Thumb_4 from "@/assets/img/valunteer/volunteer-two4.jpg";
-import volunteer2Thumb_5 from "@/assets/img/valunteer/volunteer-two5.jpg";
-import volunteer2Thumb_6 from "@/assets/img/valunteer/volunteer-two6.jpg";
-import volunteer2Thumb_7 from "@/assets/img/valunteer/volunteer-two7.jpg";
-import volunteer2Thumb_8 from "@/assets/img/valunteer/volunteer-two8.jpg";
+import volunteer2Thumb_1 from "../../public/assets/img/valunteer/volunteer-two1.jpg";
+import volunteer2Thumb_2 from "../../public/assets/img/valunteer/volunteer-two2.jpg";
+import volunteer2Thumb_3 from "../../public/assets/img/valunteer/volunteer-two3.jpg";
+import volunteer2Thumb_4 from "../../public/assets/img/valunteer/volunteer-two4.jpg";
+import volunteer2Thumb_5 from "../../public/assets/img/valunteer/volunteer-two5.jpg";
+import volunteer2Thumb_6 from "../../public/assets/img/valunteer/volunteer-two6.jpg";
+import volunteer2Thumb_7 from "../../public/assets/img/valunteer/volunteer-two7.jpg";
+import volunteer2Thumb_8 from "../../public/assets/img/valunteer/volunteer-two8.jpg";
 
-import volunteer3Thumb_1 from "@/assets/img/valunteer/volunteer-three1.jpg";
-import volunteer3Thumb_2 from "@/assets/img/valunteer/volunteer-three2.jpg";
-import volunteer3Thumb_3 from "@/assets/img/valunteer/volunteer-three3.jpg";
-import volunteer3Thumb_4 from "@/assets/img/valunteer/volunteer-three4.jpg";
-import volunteer3Thumb_5 from "@/assets/img/valunteer/volunteer-three5.jpg";
-import volunteer3Thumb_6 from "@/assets/img/valunteer/volunteer-three6.jpg";
-import volunteer3Thumb_7 from "@/assets/img/valunteer/volunteer-three7.jpg";
-import volunteer3Thumb_8 from "@/assets/img/valunteer/volunteer-three8.jpg";
+import volunteer3Thumb_1 from "../../public/assets/img/valunteer/volunteer-three1.jpg";
+import volunteer3Thumb_2 from "../../public/assets/img/valunteer/volunteer-three2.jpg";
+import volunteer3Thumb_3 from "../../public/assets/img/valunteer/volunteer-three3.jpg";
+import volunteer3Thumb_4 from "../../public/assets/img/valunteer/volunteer-three4.jpg";
+import volunteer3Thumb_5 from "../../public/assets/img/valunteer/volunteer-three5.jpg";
+import volunteer3Thumb_6 from "../../public/assets/img/valunteer/volunteer-three6.jpg";
+import volunteer3Thumb_7 from "../../public/assets/img/valunteer/volunteer-three7.jpg";
+import volunteer3Thumb_8 from "../../public/assets/img/valunteer/volunteer-three8.jpg";
 
 interface DataType {
    id: number;
