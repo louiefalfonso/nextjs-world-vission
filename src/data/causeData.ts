@@ -162,7 +162,7 @@ const cause_data: DataType[] = [
       raised: 29785,
       goal: 80563,
       percentage: 50,
-      item_bg:"item--green"
+      item_bg:"item--yellow"
    },  
    {
       id: 3,
@@ -173,7 +173,6 @@ const cause_data: DataType[] = [
       raised: 39785,
       goal: 86563,
       percentage: 70,
-      item_bg:"item--yellow"
    },
 
    // Inner Page

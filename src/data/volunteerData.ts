@@ -39,7 +39,7 @@ const volunteer_data: DataType[] = [
       page: "home_1",
       thumb: volunteerThumb_1,
       name: "Robart Jonson",
-      item_bg: "valunteer-item--green",
+      item_bg: "valunteer-item--yellow",
    },
    {
       id: 2,

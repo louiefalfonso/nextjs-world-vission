@@ -6,6 +6,7 @@ import About from "./About";
 import Footer from "@/layout/Footer";
 import OurCause from "./OurCause";
 import Volunteer from "./Volunteer";
+import BecomeVolunteer from "./BecomeVolunteer";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
         <About/>
         <OurCause/>
         <Volunteer style={true}/>
+        <BecomeVolunteer style={true} />
         <Footer/>
       </main>
     </>

@@ -9,7 +9,7 @@ const HeroArea = () => {
                <p>Only when the society comes together and contributesIt was popularised in the t we will be able to make an impact.</p>
                <div className="hero-btns pt-30 rpt-10">
                   <Link className="cr-btn" href="#">Donate Now</Link>
-                  <Link className="cr-btn btn--yellow btn--green" href="#">Learn More</Link>
+                  <Link className="cr-btn btn--yellow btn--yellow" href="#">Learn More</Link>
                </div>
             </div>
          </div>
