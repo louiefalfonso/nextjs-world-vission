@@ -12,6 +12,7 @@ import Event from "./Event";
 import FAQ from "./FAQ";
 import Testimonial from "./Testimonial";
 import Features from "./Features";
+import Blog from "./Blog";
 
 const Home = () => {
   return (
@@ -30,6 +31,7 @@ const Home = () => {
         <FAQ style={false}/>
         <Testimonial/>
         <Features/>
+        <Blog/>
         <Footer/>
       </main>
     </>

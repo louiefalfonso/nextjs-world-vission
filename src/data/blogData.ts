@@ -1,26 +1,27 @@
 import { StaticImageData } from "next/image";
 
-import blogThumb_1 from "@/assets/img/blog/blog1.jpg"
-import blogThumb_2 from "@/assets/img/blog/blog2.jpg"
-import blogThumb_3 from "@/assets/img/blog/blog3.jpg"
-import blogThumb_4 from "@/assets/img/blog/blog4.jpg"
-import blogThumb_5 from "@/assets/img/blog/blog5.jpg"
-import blogThumb_6 from "@/assets/img/blog/blog6.jpg"
-import blogThumb_7 from "@/assets/img/blog/blog7.jpg"
-import blogThumb_8 from "@/assets/img/blog/blog8.jpg"
-import blogThumb_9 from "@/assets/img/blog/blog9.jpg"
 
-import blog2Thumb_1 from "@/assets/img/blog/blog-two1.jpg"
-import blog2Thumb_2 from "@/assets/img/blog/blog-two2.jpg"
-import blog2Thumb_3 from "@/assets/img/blog/blog-two3.jpg"
+import blogThumb_1 from "../../public/assets/img/blog/blog1.jpg"
+import blogThumb_2 from "../../public/assets/img/blog/blog2.jpg"
+import blogThumb_3 from "../../public/assets/img/blog/blog3.jpg"
+import blogThumb_4 from "../../public/assets/img/blog/blog4.jpg"
+import blogThumb_5 from "../../public/assets/img/blog/blog5.jpg"
+import blogThumb_6 from "../../public/assets/img/blog/blog6.jpg"
+import blogThumb_7 from "../../public/assets/img/blog/blog7.jpg"
+import blogThumb_8 from "../../public/assets/img/blog/blog8.jpg"
+import blogThumb_9 from "../../public/assets/img/blog/blog9.jpg"
 
-import blogClasicThumb_1 from "@/assets/img/blog/blog-clasic1.jpg"
-import blogClasicThumb_2 from "@/assets/img/blog/blog-clasic2.jpg"
-import blogClasicThumb_3 from "@/assets/img/blog/blog-clasic3.jpg"
+import blog2Thumb_1 from "../../public/assets/img/blog/blog-two1.jpg"
+import blog2Thumb_2 from "../../public/assets/img/blog/blog-two2.jpg"
+import blog2Thumb_3 from "../../public/assets/img/blog/blog-two3.jpg"
 
-import blogRcPost_1 from "@/assets/img/widgets/post1.jpg"
-import blogRcPost_2 from "@/assets/img/widgets/post2.jpg"
-import blogRcPost_3 from "@/assets/img/widgets/post3.jpg"
+import blogClasicThumb_1 from "../../public/assets/img/blog/blog-clasic1.jpg"
+import blogClasicThumb_2 from "../../public/assets/img/blog/blog-clasic2.jpg"
+import blogClasicThumb_3 from "../../public/assets/img/blog/blog-clasic3.jpg"
+
+import blogRcPost_1 from "../../public/assets/img/widgets/post1.jpg"
+import blogRcPost_2 from "../../public/assets/img/widgets/post2.jpg"
+import blogRcPost_3 from "../../public/assets/img/widgets/post3.jpg"
 
 interface DataType {
    id: number;
@@ -100,7 +101,7 @@ const blog_data: DataType[] = [
       id: 2,
       page: "home_3",
       item_bg: "item--green",
-      thumb: blogThumb_4,
+      thumb: blogThumb_2,
       date: 21,
       title: "Maecenas tempus tellusin eget condimentum",
    },
