@@ -1,30 +1,30 @@
 import { StaticImageData } from "next/image";
 
-import eventThumb_1 from "@/assets/img/events/event1.jpg";
-import eventThumb_2 from "@/assets/img/events/event2.jpg";
-import eventThumb_3 from "@/assets/img/events/event3.jpg";
-import eventThumb_4 from "@/assets/img/events/event4.jpg";
-import eventThumb_5 from "@/assets/img/events/event5.jpg";
-import eventThumb_6 from "@/assets/img/events/event6.jpg";
+import eventThumb_1 from "../../public/assets/img/events/event1.jpg";
+import eventThumb_2 from "../../public/assets/img/events/event2.jpg";
+import eventThumb_3 from "../../public/assets/img/events/event3.jpg";
+import eventThumb_4 from "../../public/assets/img/events/event4.jpg";
+import eventThumb_5 from "../../public/assets/img/events/event5.jpg";
+import eventThumb_6 from "../../public/assets/img/events/event6.jpg";
 
-import event2Thumb_1 from "@/assets/img/events/event-two1.jpg";
-import event2Thumb_2 from "@/assets/img/events/event-two2.jpg";
-import event2Thumb_3 from "@/assets/img/events/event-two3.jpg";
-import event2Thumb_4 from "@/assets/img/events/event-two4.jpg";
+import event2Thumb_1 from "../../public/assets/img/events/event-two1.jpg";
+import event2Thumb_2 from "../../public/assets/img/events/event-two2.jpg";
+import event2Thumb_3 from "../../public/assets/img/events/event-two3.jpg";
+import event2Thumb_4 from "../../public/assets/img/events/event-two4.jpg";
 
-import event3Thumb_1 from "@/assets/img/events/event-three1.jpg";
-import event3Thumb_2 from "@/assets/img/events/event-three2.jpg";
-import event3Thumb_3 from "@/assets/img/events/event-three3.jpg";
+import event3Thumb_1 from "../../public/assets/img/events/event-three1.jpg";
+import event3Thumb_2 from "../../public/assets/img/events/event-three2.jpg";
+import event3Thumb_3 from "../../public/assets/img/events/event-three3.jpg";
 
-import eventInnerThumb_1 from "@/assets/img/events/event-three1.jpg";
-import eventInnerThumb_2 from "@/assets/img/events/event-three2.jpg";
-import eventInnerThumb_3 from "@/assets/img/events/event-three3.jpg";
-import eventInnerThumb_4 from "@/assets/img/events/event-three4.jpg";
-import eventInnerThumb_5 from "@/assets/img/events/event-three5.jpg";
-import eventInnerThumb_6 from "@/assets/img/events/event-three6.jpg";
-import eventInnerThumb_7 from "@/assets/img/events/event-three7.jpg";
-import eventInnerThumb_8 from "@/assets/img/events/event-three8.jpg";
-import eventInnerThumb_9 from "@/assets/img/events/event-three9.jpg";
+import eventInnerThumb_1 from "../../public/assets/img/events/event-three1.jpg";
+import eventInnerThumb_2 from "../../public/assets/img/events/event-three2.jpg";
+import eventInnerThumb_3 from "../../public/assets/img/events/event-three3.jpg";
+import eventInnerThumb_4 from "../../public/assets/img/events/event-three4.jpg";
+import eventInnerThumb_5 from "../../public/assets/img/events/event-three5.jpg";
+import eventInnerThumb_6 from "../../public/assets/img/events/event-three6.jpg";
+import eventInnerThumb_7 from "../../public/assets/img/events/event-three7.jpg";
+import eventInnerThumb_8 from "../../public/assets/img/events/event-three8.jpg";
+import eventInnerThumb_9 from "../../public/assets/img/events/event-three9.jpg";
 
 interface DataType {
    id: number;
@@ -148,7 +148,6 @@ const event_data: DataType[] = [
       time: "Jan 20, 2015",
       city: "Mownten City",
       desc:"Children face tough challenges: hunger amalnutrition, limited access to education and medical consectetur adipisci. Vivamus in magna",
-      item_bg:"item--green",
    },
    {
       id: 3,
@@ -158,7 +157,6 @@ const event_data: DataType[] = [
       time: "Jan 22, 2015",
       city: "Mownten City",
       desc:"Children face tough challenges: hunger amalnutrition, limited access to education and medical consectetur adipisci. Vivamus in magna",
-      item_bg:"item--yellow",
    },
    {
       id: 4,
@@ -168,7 +166,6 @@ const event_data: DataType[] = [
       time: "Jan 20, 2015",
       city: "Mownten City",
       desc:"Children face tough challenges: hunger amalnutrition, limited access to education and medical consectetur adipisci. Vivamus in magna",
-      item_bg:"item--green",
    },
 
    // inner page

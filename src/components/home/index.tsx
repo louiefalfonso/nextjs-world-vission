@@ -1,12 +1,14 @@
 import Header from "@/layout/Header";
+import Footer from "@/layout/Footer";
 import HeroArea from "./HeroArea";
 import Brand from "../common/Brand";
 import Charity from "./Charity";
 import About from "./About";
-import Footer from "@/layout/Footer";
 import OurCause from "./OurCause";
 import Volunteer from "./Volunteer";
 import BecomeVolunteer from "./BecomeVolunteer";
+import CtaArea from "./CtaArea";
+import Event from "./Event";
 
 const Home = () => {
   return (
@@ -20,6 +22,8 @@ const Home = () => {
         <OurCause/>
         <Volunteer style={true}/>
         <BecomeVolunteer style={true} />
+        <CtaArea/>
+        <Event/>
         <Footer/>
       </main>
     </>

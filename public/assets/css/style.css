@@ -93,7 +93,7 @@ h6 {
 ---------------------------------------*/
 :root {
   --base-color: #727272;
-  --primary-color: #F84D42;
+  --primary-color: #e7600c;
   --heading-color: #343434;
   --black-color: #1E1E1E;
   --green-color: #20B86D;
@@ -4593,10 +4593,10 @@ ul li {
 }
 
 .valunteer-item--green .valunteer-item__img:before {
-  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(116.19%, var(--green-color)));
-  background: -webkit-linear-gradient(top, transparent 0%, var(--green-color) 116.19%);
-  background: -o-linear-gradient(top, transparent 0%, var(--green-color) 116.19%);
-  background: linear-gradient(180deg, transparent 0%, var(--green-color) 116.19%);
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(116.19%, var(--primary-color)));
+  background: -webkit-linear-gradient(top, transparent 0%, var(--primary-color) 116.19%);
+  background: -o-linear-gradient(top, transparent 0%, var(--primary-color) 116.19%);
+  background: linear-gradient(180deg, transparent 0%, var(--primary-color) 116.19%);
 }
 
 .valunteer-item--green .valunteer-item__img .share button {
@@ -4678,10 +4678,10 @@ ul li {
 }
 
 .valunteer-item--three .valunteer-item__img:before {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(-19.55%, transparent), color-stop(79.89%, var(--green-color)));
-  background: -webkit-linear-gradient(top, transparent -19.55%, var(--green-color) 79.89%);
-  background: -o-linear-gradient(top, transparent -19.55%, var(--green-color) 79.89%);
-  background: linear-gradient(180deg, transparent -19.55%, var(--green-color) 79.89%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-19.55%, transparent), color-stop(79.89%, var(--primary-color)));
+  background: -webkit-linear-gradient(top, transparent -19.55%, var(--primary-color) 79.89%);
+  background: -o-linear-gradient(top, transparent -19.55%, var(--primary-color) 79.89%);
+  background: linear-gradient(180deg, transparent -19.55%, var(--primary-color) 79.89%);
 }
 
 .valunteer-item--three .valunteer-item__designation {

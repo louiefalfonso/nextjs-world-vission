@@ -26,7 +26,7 @@ interface ContentType {
 const footer_content: ContentType = {
    footer_about_text: "Wimply dummy text of the priatypeset ting industry orem Ipsum has Maecenas quis eros at ante lacinia efficitur.",
    news_title: "Subscribe Newslatters",
-   copyright_text: "Copyright 2023 All Right Reserved",
+   copyright_text: "Copyright 2024 All Right Reserved",
    latest_news: [
       {
          id: 1,
@@ -122,7 +122,7 @@ const Footer = () => {
                                     </div>
                                     <div className="content">
                                        <h6><Link href="/blog-details">Children in South Africa</Link></h6>
-                                       <span className="date"><Link href="#"><i className="flaticon-time"></i> {news.date} Dec, 2023</Link></span>
+                                       <span className="date"><Link href="#"><i className="flaticon-time"></i> {news.date} Dec, 2024</Link></span>
                                     </div>
                                  </li>
                               ))}
