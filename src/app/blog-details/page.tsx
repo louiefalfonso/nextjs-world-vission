@@ -1,13 +1,13 @@
-import Blog from "@/components/blogs/blog";
+import BlogDetails from "@/components/blogs/blog-details";
 import Wrapper from "@/layout/Wrapper";
 
 export const metadata = {
-   title: "World Vission - Charity & Donation React Next JS Project",
+   title: "World Vission - Charity & Donation React Next JS Projec",
 };
 const index = () => {
    return (
       <Wrapper>
-         <Blog/>
+         <BlogDetails />
       </Wrapper>
    )
 }
