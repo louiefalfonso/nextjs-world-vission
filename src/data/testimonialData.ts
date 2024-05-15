@@ -1,12 +1,12 @@
 import { StaticImageData } from "next/image";
 
-import authorImg_1 from "@/assets/img/testimonials/author1.jpg";
-import authorImg_2 from "@/assets/img/testimonials/author2.jpg";
-import authorImg_3 from "@/assets/img/testimonials/author3.jpg";
+import authorImg_1 from "../../public/assets/img/testimonials/author1.jpg";
+import authorImg_2 from "../../public/assets/img/testimonials/author2.jpg";
+import authorImg_3 from "../../public/assets/img/testimonials/author3.jpg";
 
-import quoteIcon_1 from "@/assets/img/testimonials/quote-icon1.png";
-import quoteIcon_2 from "@/assets/img/testimonials/quote-icon2.png";
-import quoteIcon_3 from "@/assets/img/testimonials/quote-icon3.png";
+import quoteIcon_1 from "../../public/assets/img/testimonials/quote-icon1.png";
+import quoteIcon_2 from "../../public/assets/img/testimonials/quote-icon2.png";
+import quoteIcon_3 from "../../public/assets/img/testimonials/quote-icon3.png";
 
 interface DataType {
    id: number;

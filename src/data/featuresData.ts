@@ -1,8 +1,8 @@
 import { StaticImageData } from "next/image";
 
-import features3Bg_1 from "@/assets/img/features/feature-bg-red.jpg"
-import features3Bg_2 from "@/assets/img/features/feature-bg-green.jpg"
-import features3Bg_3 from "@/assets/img/features/feature-bg-yellow.jpg"
+import features3Bg_1 from "../../public/assets/img/features/feature-bg-red.jpg"
+import features3Bg_2 from "../../public/assets/img/features/feature-bg-green.jpg"
+import features3Bg_3 from "../../public/assets/img/features/feature-bg-yellow.jpg"
 
 interface DataType {
    id: number;

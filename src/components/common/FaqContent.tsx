@@ -1,7 +1,7 @@
 import Image from "next/image"
-import Count from "./Count"
 
-import faqThumb from "@/assets/img/about/faq-left.png"
+import faqThumb from "../../../public/assets/img/about/faq-left.png"
+import Count from "./Count"
 
 const FaqContent = () => {
    return (

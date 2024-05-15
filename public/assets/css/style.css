@@ -6263,7 +6263,7 @@ ul li {
 }
 
 .faq-three-left-part .counter-item .count-text {
-  color: var(--green-color);
+  color: var(--primary-color);
 }
 
 @media (max-width: 479px) {

@@ -9,6 +9,9 @@ import Volunteer from "./Volunteer";
 import BecomeVolunteer from "./BecomeVolunteer";
 import CtaArea from "./CtaArea";
 import Event from "./Event";
+import FAQ from "./FAQ";
+import Testimonial from "./Testimonial";
+import Features from "./Features";
 
 const Home = () => {
   return (
@@ -24,6 +27,9 @@ const Home = () => {
         <BecomeVolunteer style={true} />
         <CtaArea/>
         <Event/>
+        <FAQ style={false}/>
+        <Testimonial/>
+        <Features/>
         <Footer/>
       </main>
     </>
