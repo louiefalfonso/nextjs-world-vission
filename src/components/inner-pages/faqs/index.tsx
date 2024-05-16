@@ -2,6 +2,10 @@ import Breadcrumb from "@/components/common/Breadcrumb"
 import Footer from "@/layout/Footer"
 import Header from "@/layout/Header"
 import Brand from "@/components/common/Brand"
+import FAQ from "@/components/home/FAQ"
+import FaqStyleOne from "./FaqStyleOne"
+import CtaArea from "@/components/home/CtaArea"
+import FaqStyleTwo from "./FaqStyleTwo"
 
 const Faqs = () => {
    return (
@@ -9,7 +13,10 @@ const Faqs = () => {
          <Header style_1={false} style_2={true} />
          <main>
             <Breadcrumb page_title="frequently asked questions" page_list="Faq" style={true} />
-            
+            <FAQ/>
+            <FaqStyleOne/>
+            <CtaArea/>
+            <FaqStyleTwo/>
             <Brand style={true} />
          </main>
          <Footer />
