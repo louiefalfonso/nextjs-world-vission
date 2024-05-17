@@ -32,17 +32,29 @@ const menu_data: MenuItem[] = [
     {
         id: 4,
         has_dropdown: false,
+        title: "Causes",
+        link: "/causes"
+    },
+    {
+        id: 5,
+        has_dropdown: false,
+        title: "Events",
+        link: "/events"
+    },
+    {
+        id: 6,
+        has_dropdown: false,
         title: "FAQ",
         link: "/faqs"
     },
     {
-        id: 5,
+        id: 7,
         has_dropdown: false,
         title: "Blog",
         link: "/blog"
     },
     {
-        id: 6,
+        id: 8,
         has_dropdown: false,
         title: "Contact Us",
         link: "/contact"
