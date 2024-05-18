@@ -11,8 +11,8 @@ import Header from "@/layout/Header"
 const AboutUs = () => {
    return (
       <>
-         <Header style_1={false} style_2={true} />
          <main>
+            <Header style_1={false} style_2={true} />
             <Breadcrumb page_title="About Us" page_list="About" style={false} />
             <Brand/>
             <About/>
