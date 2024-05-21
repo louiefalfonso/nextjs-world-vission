@@ -1,3 +1,4 @@
+import Donate from "@/components/inner-pages/donate";
 import Wrapper from "@/layout/Wrapper";
 
 export const metadata = {
@@ -6,7 +7,7 @@ export const metadata = {
 const index = () => {
    return (
       <Wrapper>
-         
+         <Donate/>
       </Wrapper>
    )
 }
