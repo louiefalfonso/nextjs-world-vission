@@ -3,7 +3,6 @@ import Image, { StaticImageData } from "next/image"
 import Link from "next/link"
 import footer_data from "@/data/footerData";
 
-
 import footerLogo from "../../public/assets/img/logos/wp-logo-white.png"
 import donate from "../../public/assets/img/footer/donate-by.png";
 import footerMap from "../../public/assets/img/footer/map.png"
@@ -61,7 +60,7 @@ const Footer = () => {
                      </div>
                   </div>
                   <div className="col-lg-5">
-                     <div className="hotline-part overlay bgs-cover" style={{ backgroundImage: `url(assets/img/footer/footer-bg.jpg)` }}>
+                     <div className="hotline-part overlay bgs-cover" style={{ backgroundImage: `url(../public/assets/img/footer/footer-bg.jpg)` }}>
                         <h4><i className="flaticon-headphones"></i> Hot Line</h4>
                         <span className="h3"><Link href="callto:333444555">333 - 444 555</Link></span>
                      </div>

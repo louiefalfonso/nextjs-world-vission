@@ -3,9 +3,9 @@ import Link from "next/link";
 import CauseDetailsForm from "@/components/forms/CauseDetailsForm";
 import CauseDetailsSidebar from "./CauseDetailsSidebar";
 
-import causeDetailsThumb from "@/assets/img/causes/cause-details.jpg"
-import causeDetailsMiddleThumb_1 from "@/assets/img/causes/cause-middle1.jpg"
-import causeDetailsMiddleThumb_2 from "@/assets/img/causes/cause-middle2.jpg"
+import causeDetailsThumb from "../../../../public/assets/img/causes/cause-details.jpg"
+import causeDetailsMiddleThumb_1 from "../../../../public/assets/img/causes/cause-middle1.jpg"
+import causeDetailsMiddleThumb_2 from "../../../../public/assets/img/causes/cause-middle2.jpg"
 
 interface ContentData {
    title_1: string;
