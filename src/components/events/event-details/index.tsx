@@ -7,7 +7,7 @@ import EventDetailsArea from "./EventDetailsArea"
 const EventDetails = () => {
    return (
       <>
-         <Header style_1={false} style_2={true}/>
+         <Header style_1={false} style_2={false} />
          <main>
             <Breadcrumb page_title="Our Events Slider" page_list="Event" />
             <EventDetailsArea/>

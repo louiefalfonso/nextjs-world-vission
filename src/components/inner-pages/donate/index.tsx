@@ -7,7 +7,7 @@ import DonateArea from "./DonateArea"
 const Donate = () => {
    return (
       <>
-         <Header style_1={true} style_2={true} />
+         <Header style_1={false} style_2={false} />
          <main>
             <Breadcrumb page_title="Donate Now" page_list="Donate" style={false} />
             <DonateArea/> 

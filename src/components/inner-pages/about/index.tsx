@@ -12,7 +12,7 @@ const AboutUs = () => {
    return (
       <>
          <main>
-            <Header style_1={true} style_2={true} />
+            <Header style_1={false} style_2={false} />
             <Breadcrumb page_title="About Us" page_list="About" style={false} />
             <Brand/>
             <About/>
