@@ -1,17 +1,17 @@
 import Breadcrumb from "@/components/common/Breadcrumb"
-import FooterOne from "@/layout/footers/FooterOne"
-import HeaderOne from "@/layout/headers/HeaderOne"
+import Footer from "@/layout/Footer"
+import Header from "@/layout/Header"
 import CauseDetailsArea from "./CauseDetailsArea"
 
 const CauseDetails = () => {
    return (
       <>
-         <HeaderOne style_1={false} style_2={false} />
+         <Header style_1={false} style_2={true} />
          <main>
             <Breadcrumb page_title="Cause Details" page_list="Cause Details" style={false} />
             <CauseDetailsArea />
          </main>
-         <FooterOne />
+         <Footer />
       </>
    )
 }
