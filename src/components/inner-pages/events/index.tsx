@@ -8,7 +8,7 @@ import EventArea from "./EventArea"
 const Event = () => {
    return (
       <>
-         <Header style_1={false} style_2={true} />
+         <Header style_1={true} style_2={true} />
          <main>
             <Breadcrumb page_title="Our Latest Event" page_list="Event" style={false} />
             <EventArea/>    

@@ -10,7 +10,7 @@ import FaqStyleTwo from "./FaqStyleTwo"
 const Faqs = () => {
    return (
       <>
-         <Header style_1={false} style_2={true} />
+         <Header style_1={true} style_2={true} />
          <main>
             <Breadcrumb page_title="frequently asked questions" page_list="Faq" style={true} />
             <FAQ/>
