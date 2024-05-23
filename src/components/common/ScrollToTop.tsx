@@ -8,6 +8,7 @@ const ScrollToTop = () => {
 
    const [showScroll, setShowScroll] = useState(false);
 
+   // eslint-disable-next-line react-hooks/exhaustive-deps
    const checkScrollTop = () => {
       if (!showScroll && window.pageYOffset > 400) {
          setShowScroll(true);
@@ -35,7 +36,7 @@ const ScrollToTop = () => {
 
       window.addEventListener("scroll", checkScrollTop);
       return () => window.removeEventListener("scroll", checkScrollTop);
-   }, [checkScrollTop]);
+   }, [checkScrollTop, showScroll]);
 
    return (
       <>
