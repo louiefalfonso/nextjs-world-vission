@@ -24,7 +24,7 @@ const FaqContent = () => {
             </div>
             <div className="project-complete__content">
                <h5>We Complate 15000+ Project</h5>
-               <span>Donet for charity</span>
+               <span>Donate for charity</span>
             </div>
          </div>
       </>

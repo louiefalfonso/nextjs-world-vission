@@ -39,7 +39,7 @@ const OurCause = () => {
                               <span><i className="flaticon-target"></i> Goal : ${item.goal}</span>
                            </div>
                            <div className="cause-btn">
-                              <Link className="cr-btn" href="#">Donation now</Link>
+                              <Link className="cr-btn" href="/donate">Donation now</Link>
                            </div>
                         </div>
                      </div>
